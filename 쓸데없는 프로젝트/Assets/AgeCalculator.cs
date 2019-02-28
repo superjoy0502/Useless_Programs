@@ -9,13 +9,10 @@ public class AgeCalculator : MonoBehaviour
 {
     public double age = 0;
     public Text ageText;
-    public int YearInput;
-    public int MonthInput;
-    public int DayInput;
-    // 도연님 선물용 public DateTime BD = new DateTime(2004, 5, 19, 15, 30, 0);
-    // mine public DateTime BD = new DateTime(2005, 10, 2, 11, 45, 0);
-    // public DateTime BD = new DateTime(2004, 8, 19, 12, 30, 0);
-    public DateTime BD = new DateTime(YearInput, 8, 19, 12, 30, 0);
+    // public int YearInput;
+    // public int MonthInput;
+    // public int DayInput;
+    public DateTime BD = new DateTime(2005, 10, 2, 11, 45, 0);
 
     public static double ConvertToUnixTimestamp(DateTime date)
     {
